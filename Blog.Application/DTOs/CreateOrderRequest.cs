@@ -1,8 +1,8 @@
 ﻿
 
-using Papas.Domain.Entities;
+using Blog.Domain.Entities;
 
-namespace Papas.Application.DTOs;
+namespace Blog.Application.DTOs;
 
 public class CreateOrderRequest
 {

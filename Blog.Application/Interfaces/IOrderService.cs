@@ -1,8 +1,8 @@
-﻿using Papas.Domain.Entities;
+﻿using Blog.Domain.Entities;
 
-using Papas.Application.DTOs;
+using Blog.Application.DTOs;
 
-namespace Papas.Application.Interfaces;
+namespace Blog.Application.Interfaces;
 
 public interface IOrderService
 {
