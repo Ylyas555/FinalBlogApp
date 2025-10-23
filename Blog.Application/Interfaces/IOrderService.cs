@@ -7,6 +7,7 @@ namespace Blog.Application.Interfaces;
 public interface IOrderService
 {
     Task<OrderSummaryDto> CreateOrderAsync(CreateOrderRequest request);
-    Task<IEnumerable<OrderSummaryDto>> GetAllOrdersAsync();
+    Task<List<OrderSummaryDto>> GetAllOrdersAsync();
     Task<OrderSummaryDto?> GetOrderByIdAsync(int id);
 }
+// add blog, 
